@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e1d2d2;
+    color: #574545;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.left {
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 17px;
+    font-size: 13px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #574545;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #E90064;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.purple {
+    color: #E90064;
+}
+
+.home {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+}
+
+.leftsection {
+    
+    margin: 30px 0px;
+    padding: 60px;
+}
+
+.rightsection {
+    width: 30%;
+}
+
+.rightsection img {
+    width: 400px;
+    height: 400px;
+}
+
+.leftsection .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.text_one {
+    font-size: 25px;
+}
+
+.text_two {
+    font-size: 50px;
+}
+
+.text_three {
+    font-size: 21px;
+    margin: 5px 0px;
+}
+
+#element {
+    font-size: 21px;
+    margin: 5px 0px;
+}
+
+.about {
+    
+    height: 100vh;
+}
+
+section {
+    padding-top: 40px;
+}
+
+section .content {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.about .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+    color: #E90064;
+}
+
+
+.about-details .leftpart .cart {
+    display: flex;
+    justify-content: space-around;
+}
+.about-details .leftpart .cart1{
+    border: 2px solid #ee870d;
+    border-radius: 50px;
+}
+.about-details .leftpart .cart1 .text{
+    padding: 20px;
+}
+.about-details .leftpart .cart1 .heading1{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.about-details .leftpart .cart1 .edu{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.about-details .leftpart .cart1 .scl{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.about-details .leftpart .cart1 .clg{
+    font-size: 17px;
+}
+.about-details .leftpart .cart2{
+    border: 2px solid #ee870d;
+    border-radius: 50px;
+    height: 245px;
+}
+.about-details .leftpart .cart2 .text{
+        padding-right: 50px;
+        padding-left: 50px;
+        
+}
+.about-details .leftpart .cart2 .text .heading2{
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.about-details .leftpart .cart2 .text .web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 41px 23px;
+    font-size: 17px;
+}
+
+.about-details .rightpart {
+    
+    font-size: 20px;
+}
+
+.rightpart .topic {
+    padding: 20px 0px;
+    font-size: 26px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-details .right p {
+    text-align: justify;
+}
+
+.about .button {
+    margin: 16px 0px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .button button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:#f1b96238;
+    color: black;
+    border: 2px solid #ee870d;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.about .button button:hover {
+    border-color: white;
+    background-color: #E90064;
+    color: black;
+
+}
+
+.skills {
+    height: 100vh;
+}
+
+.skills content {
+    padding: 40px 0px;
+    margin: 0px auto;
+
+}
+
+.skills .skill-details {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-details p {
+    width: 68%;
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.skills .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+    color: #E90064;
+    margin: 40px auto;
+}
+
+.skill-details .text .topic {
+
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.skills .boxes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dab17238;
+    margin: 50px 20px;
+    padding: 40px 20px;
+    border: 2px solid #ee870d;
+    border-radius: 15px;
+}
+
+.skill-details .boxes .box {
+
+    background-color: #e9ccf45c;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(10, 0, 0, 0.12);
+
+}
+
+.skill-details .box .topic {
+
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.skill-details .box img {
+
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.skill-details .box figcaption {
+
+    text-align: center;
+    font-size: 17px;
+}
+
+.projects {
+    height: 100vh;
+    
+}
+
+.projects .content .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+    color: #E90064;
+    margin: 40px auto;
+}
+
+.projects .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects .boxes .box {
+    margin: 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(10, 0, 0, 0.12);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background-color: #f3947740;
+}
+
+.projects .box img {
+    height: 300px;
+    width: 381px;
+}
+.projects .boxes .box figcaption{
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.projects .visit {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #f1b96238;
+    color: black;
+    border: 2px solid #ee870d;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin: 45px;
+}
+
+.projects .box button:hover {
+    border-color: white;
+    background-color: #E90064;
+    color: black;
+}
+
+.contact .content .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+    color: #E90064;
+    margin: 40px auto;
+
+}
+
+.contact {
+    height: 80vh;
+}
+
+.contact .content {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.contact .text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.contact .topic {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact .text p {
+    font-size: 22px;
+}
+
+.contact .media .fb {
+    color: #095cec;
+}
+
+.contact .media .insta {
+    color: #e4405f;
+}
+
+.contact .media .in {
+    color: #0959e1;
+}
+.leftsection .media .in {
+    color: black;
+    margin-right: 5px;
+}
+.leftsection .media .git {
+    color: black;
+}
+
+
+
+.contact .media .wp {
+    color: #18ec09;
+}
+
+.contact .media {
+
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 90px;
+    padding: 5px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.contact .media a i{
+    transition: all 0.3s linear;
+    margin: 0px 5px;
+}
+ .contact .media a:hover i{
+    transform: scale(1.4);
+}
+.leftsection .media a:hover i{
+    transform: scale(1.2);
+}
+footer{
+    background-color: #0959e1;
+    padding: 15px 0;
+    text-align: center;
+} 
+.footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
